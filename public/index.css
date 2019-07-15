@@ -1,0 +1,170 @@
+*{
+    margin:0;padding:0;
+    background-color:#C8BA99;
+    outline:none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color:#725A4E;
+}
+body{
+    position: relative;
+}
+a:hover,button:hover{
+    cursor: pointer;
+}
+.head{
+/* js加载屏幕宽度 */
+    width:100%;
+    height:10rem;
+    content: '';
+    position: relative;
+}
+button{
+    width:3rem;
+    height:3rem;
+    border-radius:50%;
+    background-color:red;
+    font-size:1.3rem;
+    line-height:3rem;
+    top:8%;
+}
+
+.music{
+    position: relative;
+    left:80%;
+    top:3rem;
+    background-image:url('/assets/Group3@2x.png');
+    background-size:cover;
+}
+
+.back{
+    position: relative;;
+    left:10%;
+    top:3rem;
+    background-image:url('/assets/close@2x.png');
+    background-size:cover;
+}
+button{
+    border:1px solid rgb(182, 169, 169);
+}
+button:active{
+    border-color: rgb(104, 101, 101)
+}
+a{
+    font-family:HYa4gj;
+    font-size: 1rem;
+    color: #725A4E;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight:400;
+}
+.blessing{
+    margin:8rem 0 4rem 0;
+    position: relative;;
+    left:20%;
+    top:10%;
+    display: inline-block;
+}
+.coupon{
+    display: inline-block;
+    position: relative;
+    left:60%;
+}
+/* media */
+.body{
+    width:50.8rem;
+    margin:0 auto;
+    padding:0 3rem 0 3rem;
+    position: relative;
+}
+.father{
+    /* padding:3rem; */
+    overflow: hidden;
+}
+.prevsibling{
+    width:17rem;
+    height:17rem;
+    background-size:cover;
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin:0.3rem 0 2.5rem 0;
+}
+.doubleprevsibling{
+    width:17rem;
+    height:17rem;
+    background-size:cover;
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin:0.3rem 0 2.5rem 0;
+}
+.logo{
+    position: relative;
+    width:5rem;
+    height:5rem;
+    top:13rem;
+    left:14.5rem;
+    background-size:cover;
+    transform: rotate(45deg);
+}
+.doublelogo{
+    position: relative;
+    width:5rem;
+    height:5rem;
+    top:13rem;
+    left:-2.3rem;
+    background-size:cover;
+    transform: rotate(45deg);
+}
+.img{
+    width: max-content;
+    height:max-content;
+}
+.nextsibling{
+    width: 21.8rem;
+    height:17rem;
+    padding:2rem 0 0 5rem;
+    display: inline-block;
+    float: right;
+    text-align:center;
+}
+.doublenextsibling{
+    width: 21.8rem;
+    height:17rem;
+    padding:2rem 0 0 0;
+    display: inline-block;
+    float: left;
+    text-align:center;
+}
+.nextsibling-top{
+    width:17rem;
+    height:0.7rem;
+    background-size:cover;
+}
+.title{
+    font-weight:900;
+    letter-spacing:0.5em;
+}
+.detail{
+    margin-top:1rem;
+    font-weight:100;
+    letter-spacing:0.2em;
+    margin-bottom:1rem;
+}
+.nextsibling-bottom{
+    width:17rem;
+    height:0.6rem;
+    background-size:cover;
+}
+.father_children{
+    position: relative;
+    top:5rem;
+    right:-5rem;
+}
+.doublechildren{
+    position: relative;
+
+    top:5rem;
+    left:-5rem;
+}
