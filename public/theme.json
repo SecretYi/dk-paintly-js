@@ -1,0 +1,29 @@
+[
+    {
+        "id": "topic_xyj",
+        "name": "西游记",
+        "cover": "",
+        "banner": "",
+        "sale_type": "",
+        "content_url": "http://pdn.tapque.com/topic_xyj.json",
+        "h5_url": ""
+    },
+    {
+        "id": "topic_xingzuo",
+        "name": "十二星座",
+        "cover": "",
+        "banner": "",
+        "sale_type": "",
+        "content_url": "",
+        "h5_url": ""
+    },
+    {
+        "id": "topic_gugong",
+        "name": "故宫",
+        "cover": "",
+        "banner": "",
+        "sale_type": "",
+        "content_url": "",
+        "h5_url": ""
+    }
+]
